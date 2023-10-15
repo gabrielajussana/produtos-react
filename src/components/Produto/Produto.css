@@ -1,0 +1,54 @@
+.containe-add {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.form-group {
+    padding: 10px 0; 
+}
+
+.form-group input {
+    width: 200px; 
+    height: 35px; /
+}
+
+.btn-aprov {
+    border-radius: 5px; 
+    background-color: rgb(255, 255, 255); 
+    color: blueviolet; 
+    width: 130px; 
+    height: 30px; 
+    margin: 1px; 
+    border: none;
+    font-weight: bold; 
+    border: 1px solid blueviolet; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+input {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: white;
+    color: blueviolet;
+}
+
+input section:focus-visible {
+    box-shadow: 0 0 0 0; 
+    border: 0 none; 
+    outline: 0; 
+}
+
+.btn-cancel {
+    border-radius: 5px; 
+    background-color: white;
+    color: red;
+    width: 130px;
+    height: 30px;
+    margin: 1px;
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer; 
+}
